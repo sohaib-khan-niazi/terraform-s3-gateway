@@ -8,4 +8,7 @@ Terraform project that provisions a secure AWS setup:
 - **VPC Gateway Endpoint** for private EC2 ↔ S3 access (no internet/NAT)  
 - **IAM role & instance profile** for EC2 to access S3 without access keys  
 
+## Architecture
+![Architecture Diagram](assets/diagram.png)
+
 This design ensures the private EC2 can interact with S3 securely over AWS’s private network only.
